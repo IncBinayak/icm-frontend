@@ -7,7 +7,7 @@ table {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    
+
 }
 
 th {
@@ -19,3 +19,38 @@ td {
     padding: 3px;
 }
 
+@media screen and (max-width:695px) {
+    .tableContainer {
+        width: 470px;
+        overflow-x: scroll;
+        
+    }
+}
+
+@media screen and (max-width:654px) {
+    .tableContainer {
+        width: 420px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width:604px) {
+    .tableContainer {
+        width: 370px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width:551px) {
+    .tableContainer {
+        width: 310px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width:478px) {
+    .tableContainer {
+        width: 222px;
+        overflow-x: scroll;
+    }
+}

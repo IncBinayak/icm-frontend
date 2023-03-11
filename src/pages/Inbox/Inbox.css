@@ -1,6 +1,4 @@
-.wrap-cont {
-    box-sizing: border-box;
-}
+
 .addReq {
     box-sizing: border-box;
     width: 170px;
@@ -22,10 +20,13 @@ h3 {
     font-weight: 400;
 }
 
-/* @media screen and (max-width:649px){
-    .wrap-cont {
-        position: absolute;
+
+@media screen and (max-width:695px) {
+    .addReq {
+        width: 120px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 21px;
     }
-
-} */
-
+}

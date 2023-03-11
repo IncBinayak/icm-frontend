@@ -11,19 +11,19 @@ const Inbox = () => {
     <div className="wrap-cont">
       <Container sx={{  margin: "10px"}}>
         <Grid container spacing={2} sx={{ marginTop: "30px" }}>
-          <Grid item xs={8}>
+          <Grid item xs={6} >
             <h3>
               <u>Updates</u>
             </h3>
           </Grid>
 
-          <Grid item xs={4} style={{ textAlign: "right" }}>
+          <Grid item xs={6} style={{ textAlign: "right" }}>
             <button className="addReq">
               <AddOutlinedIcon sx={{ marginRight: "10px" }} />
               <span>Add Request</span>
             </button>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} >
             <TableInbox />
           </Grid>
         </Grid>
